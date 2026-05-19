@@ -58,6 +58,8 @@
 }
 
 .hero-title{
+    margin-top: 20px;
+    
     font-size: clamp(42px, 7vw, 78px);
     font-weight: 800;
 
