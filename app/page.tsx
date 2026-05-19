@@ -7,7 +7,7 @@ import "./css/pages.css"
 
 export default function Home() {
   return (
-    <div>
+    <div classname="page">
       <Navbar />
       <Hero />
       <Modalidades />
