@@ -68,12 +68,46 @@
     transition: all 0.35s ease;
 
     cursor: pointer;
+
+    /* ANIMAÇÃO */
+
+    opacity: 0;
+
+    transform: translateY(40px);
+
+    animation: cardFadeUp 0.8s ease forwards;
+}
+
+.modalidade-card:nth-child(1){
+    animation-delay: 0.2s;
+}
+
+.modalidade-card:nth-child(2){
+    animation-delay: 0.4s;
+}
+
+.modalidade-card:nth-child(3){
+    animation-delay: 0.6s;
 }
 
 .modalidade-card:hover{
     transform: translateY(-10px);
 
     box-shadow: 0 14px 35px rgba(0,0,0,0.12);
+}
+
+@keyframes cardFadeUp{
+    from{
+        opacity: 0;
+
+        transform: translateY(40px);
+    }
+
+    to{
+        opacity: 1;
+
+        transform: translateY(0);
+    }
 }
 
 /* IMAGEM */
