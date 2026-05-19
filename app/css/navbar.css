@@ -6,7 +6,9 @@
     padding-block: 10px;
 
     width: 100vw;
-    height: 12dvh;
+
+    min-height: 80px;
+    height: auto;
 
     display: flex;
     justify-content: center;
@@ -33,8 +35,11 @@
 }
 
 .logo{
-    height: 70px;
     width: auto;
+
+    height: clamp(40px, 5vw, 70px);
+
+    object-fit: contain;
 
     cursor: pointer;
 
@@ -186,10 +191,6 @@
 }
 
 @media (max-width: 1200px){
-
-    .logo{
-        height: 55px;
-    }
 
     .nav{
         padding-inline: 20px;
