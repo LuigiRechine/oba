@@ -7,11 +7,9 @@ export default function Navbar() {
         <nav className="nav-group">
             <div className="nav">
                 <Link href="/">
-                    <Image
+                    <img
                         src="/logoOBA.png"
                         alt="Logo OBA"
-                        width={180}
-                        height={70}
                         className="logo"
                     />
                 </Link>
@@ -78,11 +76,9 @@ export default function Navbar() {
                 </div>
 
                 <Link href="/">
-                    <Image
+                    <img
                         src="/logoOBAFOG.png"
                         alt="Logo OBAFOG"
-                        width={250}
-                        height={70}
                         className="logo"
                     />
                 </Link>
