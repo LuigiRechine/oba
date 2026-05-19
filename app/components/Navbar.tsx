@@ -10,7 +10,7 @@ export default function Navbar() {
                     <img
                         src="/logoOBA.png"
                         alt="Logo OBA"
-                        className="logo"
+                        className="logo logo-oba"
                     />
                 </Link>
                 <div className="nav-sections">
@@ -79,7 +79,7 @@ export default function Navbar() {
                     <img
                         src="/logoOBAFOG.png"
                         alt="Logo OBAFOG"
-                        className="logo"
+                        className="logo logo-obafog"
                     />
                 </Link>
             </div>
