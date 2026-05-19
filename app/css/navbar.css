@@ -21,7 +21,8 @@
     background-color: #ffffff;
 
     width: min(95vw, 1700px);
-    height: 100%;
+
+    height: 85px;
 
     border-radius: 30px;
 
