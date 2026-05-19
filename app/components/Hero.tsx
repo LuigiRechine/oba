@@ -9,7 +9,7 @@ export default function Hero() {
             <div className="hero-content">
 
                 <p className="hero-tag">
-                    Olimpíada Científica Nacional
+                    
                 </p>
 
                 <h1 className="hero-title">
